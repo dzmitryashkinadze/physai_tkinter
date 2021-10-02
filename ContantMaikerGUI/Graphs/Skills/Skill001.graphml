@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d7" />
+  <key attr.name="SolutionVar" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="known" attr.type="boolean" for="node" id="d5" />
+  <key attr.name="unit" attr.type="string" for="node" id="d4" />
+  <key attr.name="SY_Var" attr.type="string" for="node" id="d3" />
+  <key attr.name="ypos" attr.type="long" for="node" id="d2" />
+  <key attr.name="type" attr.type="string" for="node" id="d1" />
+  <key attr.name="xpos" attr.type="long" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="d0">2</data>
+      <data key="d1">E</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="2">
+      <data key="d1">V</data>
+      <data key="d3">F</data>
+      <data key="d4">N</data>
+      <data key="d0">1</data>
+      <data key="d2">2</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="3">
+      <data key="d1">V</data>
+      <data key="d3">m</data>
+      <data key="d4">kg</data>
+      <data key="d0">4</data>
+      <data key="d2">1</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="4">
+      <data key="d1">MG</data>
+      <data key="d0">3</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="5">
+      <data key="d1">V</data>
+      <data key="d3">a</data>
+      <data key="d4">m/s/s</data>
+      <data key="d0">4</data>
+      <data key="d2">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <edge source="2" target="1">
+      <data key="d7">-1.0</data>
+    </edge>
+    <edge source="3" target="4">
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="4" target="1">
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="5" target="4">
+      <data key="d7">1.0</data>
+    </edge>
+  </graph>
+</graphml>

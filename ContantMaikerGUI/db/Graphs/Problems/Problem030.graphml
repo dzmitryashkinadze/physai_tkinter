@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="ExpectedValue" attr.type="string" for="node" id="d9" />
+  <key attr.name="value" attr.type="double" for="node" id="d8" />
+  <key attr.name="SolutionVar" attr.type="boolean" for="node" id="d7" />
+  <key attr.name="ypos" attr.type="long" for="node" id="d6" />
+  <key attr.name="xpos" attr.type="long" for="node" id="d5" />
+  <key attr.name="value" attr.type="string" for="node" id="d4" />
+  <key attr.name="known" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="unit" attr.type="string" for="node" id="d2" />
+  <key attr.name="SY_Var" attr.type="string" for="node" id="d1" />
+  <key attr.name="type" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="d0">V</data>
+      <data key="d1">L1</data>
+      <data key="d2">km</data>
+      <data key="d3">True</data>
+      <data key="d4">1.0</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+      <data key="d7">False</data>
+    </node>
+    <node id="2">
+      <data key="d0">V</data>
+      <data key="d1">T</data>
+      <data key="d2">hour</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+      <data key="d7">False</data>
+    </node>
+    <node id="3">
+      <data key="d0">V</data>
+      <data key="d1">L2</data>
+      <data key="d2">km</data>
+      <data key="d3">True</data>
+      <data key="d8">4.0</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="4">
+      <data key="d0">V</data>
+      <data key="d1">v</data>
+      <data key="d2">kilometer/hour</data>
+      <data key="d3">False</data>
+      <data key="d5">4</data>
+      <data key="d6">1</data>
+      <data key="d7">True</data>
+      <data key="d9">5.0</data>
+    </node>
+  </graph>
+</graphml>

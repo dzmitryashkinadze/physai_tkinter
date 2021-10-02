@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="SolutionVar" attr.type="boolean" for="node" id="d7" />
+  <key attr.name="known" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="unit" attr.type="string" for="node" id="d5" />
+  <key attr.name="SY_Var" attr.type="string" for="node" id="d4" />
+  <key attr.name="ExpectedParsing" attr.type="string" for="node" id="d3" />
+  <key attr.name="ypos" attr.type="long" for="node" id="d2" />
+  <key attr.name="type" attr.type="string" for="node" id="d1" />
+  <key attr.name="xpos" attr.type="long" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="d0">3</data>
+      <data key="d1">E</data>
+      <data key="d2">2</data>
+      <data key="d3">1.0*(1.0*a)**(1.0*b+1.0*c)</data>
+    </node>
+    <node id="2">
+      <data key="d1">V</data>
+      <data key="d4">a</data>
+      <data key="d5">dimensionless</data>
+      <data key="d0">1</data>
+      <data key="d2">1</data>
+      <data key="d6">False</data>
+      <data key="d7">False</data>
+    </node>
+    <node id="3">
+      <data key="d1">V</data>
+      <data key="d4">b</data>
+      <data key="d5">dimensionless</data>
+      <data key="d0">2</data>
+      <data key="d2">1</data>
+      <data key="d6">False</data>
+      <data key="d7">False</data>
+    </node>
+    <node id="4">
+      <data key="d1">PG</data>
+      <data key="d0">1</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="5">
+      <data key="d1">V</data>
+      <data key="d4">c</data>
+      <data key="d5">dimensionless</data>
+      <data key="d0">3</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="6">
+      <data key="d1">SG</data>
+      <data key="d0">2</data>
+      <data key="d2">2</data>
+    </node>
+  </graph>
+</graphml>

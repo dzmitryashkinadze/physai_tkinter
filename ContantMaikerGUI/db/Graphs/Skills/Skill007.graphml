@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="PI" attr.type="boolean" for="edge" id="d11" />
+  <key attr.name="weight" attr.type="double" for="edge" id="d10" />
+  <key attr.name="power" attr.type="long" for="node" id="d9" />
+  <key attr.name="value" attr.type="double" for="node" id="d8" />
+  <key attr.name="ExpectedParsing" attr.type="string" for="node" id="d7" />
+  <key attr.name="SolutionVar" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="known" attr.type="boolean" for="node" id="d5" />
+  <key attr.name="ypos" attr.type="long" for="node" id="d4" />
+  <key attr.name="xpos" attr.type="long" for="node" id="d3" />
+  <key attr.name="unit" attr.type="string" for="node" id="d2" />
+  <key attr.name="SY_Var" attr.type="string" for="node" id="d1" />
+  <key attr.name="type" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="d0">V</data>
+      <data key="d1">L</data>
+      <data key="d2">meter</data>
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="2">
+      <data key="d3">2</data>
+      <data key="d0">E</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="3">
+      <data key="d0">V</data>
+      <data key="d1">T</data>
+      <data key="d2">hour</data>
+      <data key="d5">False</data>
+      <data key="d3">3</data>
+      <data key="d4">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="4">
+      <data key="d0">V</data>
+      <data key="d1">a</data>
+      <data key="d2">meter / s / s</data>
+      <data key="d3">2</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="5">
+      <data key="d0">C</data>
+      <data key="d1">1/2</data>
+      <data key="d2">dimensionless</data>
+      <data key="d8">0.5</data>
+      <data key="d3">1</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="6">
+      <data key="d0">MG</data>
+      <data key="d3">2</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="7">
+      <data key="d0">PG</data>
+      <data key="d3">3</data>
+      <data key="d4">2</data>
+      <data key="d9">8</data>
+    </node>
+    <node id="8">
+      <data key="d0">C</data>
+      <data key="d1">2</data>
+      <data key="d2">dimensionless</data>
+      <data key="d8">2.0</data>
+      <data key="d3">3</data>
+      <data key="d4">3</data>
+    </node>
+    <edge source="1" target="2">
+      <data key="d10">-1.0</data>
+    </edge>
+    <edge source="3" target="7">
+      <data key="d10">1.0</data>
+    </edge>
+    <edge source="4" target="6">
+      <data key="d10">1.0</data>
+    </edge>
+    <edge source="5" target="6">
+      <data key="d10">1.0</data>
+    </edge>
+    <edge source="6" target="2">
+      <data key="d10">1.0</data>
+    </edge>
+    <edge source="7" target="6">
+      <data key="d10">1.0</data>
+    </edge>
+    <edge source="8" target="7">
+      <data key="d10">1.0</data>
+      <data key="d11">True</data>
+    </edge>
+  </graph>
+</graphml>
